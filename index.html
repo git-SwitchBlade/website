@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+body{
+background-image: url("3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#heading{
+text-align:center;
+font-size:19px;
+color:white;
+}
+#para{
+color:white;
+}
+.button_slide {
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #D80286;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #D80286;
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #D80286;
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+</style>
+<h1 id="heading">Some_Random_Business</h1><br><br>
+<p id="para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna. Aliquam in lorem sit amet leo accumsan lacinia. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Phasellus et lorem id felis nonummy placerat. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Aenean vel massa quis mauris vehicula lacinia. Quisque tincidunt scelerisque libero. Maecenas libero. Etiam dictum tincidunt diam. Donec ipsum massa, ullamcorper in, Donec ipsum massa, ullamcorper in,</p>
+<br><br>
+<div id="outer">
+  <div class="button_slide slide_down">BUTTON: SLIDE DOWN </div>
+  <br /> <br /><br />
+  <div class="button_slide slide_right">BUTTON: SLIDE RIGHT </div>
+  <br /> <br /><br />
+  <div class="button_slide slide_left">BUTTON: SLIDE INSIDE </div>
+  <br /> <br /><br />
+  <div class="button_slide slide_diagonal">BUTTON: SLIDE DIAGONAL </div>
+  <br /> <br /><br />
+</div>
+
+</body>
+</html>
